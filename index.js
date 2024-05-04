@@ -6,7 +6,7 @@ const {MongoClient} = require ('mongodb');
 const dns = require('dns');
 const urlparser = require('url');
 
-const client = new MongoClient("mongodb+srv://ruxi:L6cFDDrk7xZZcef8@cluster0.rkqohu7.mongodb.net/urlshortner?retryWrites=true&w=majority&appName=Cluster0");
+const client = new MongoClient("mongodb+srv://yours:pass@cluster0.rkqohu7.mongodb.net/urlshortner?retryWrites=true&w=majority&appName=Cluster0");
 const db = client.db("urlshortner");
 const urls = db.collection("urls");
 
